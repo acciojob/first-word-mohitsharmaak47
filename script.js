@@ -1,17 +1,7 @@
 function firstWord(s) {
   // your code here
-	 str = str.trim();
-    
-    const spaceIndex = str.indexOf(' ');
-    
-    if (spaceIndex === -1) {
-        return str;
-    }
-    return str.substring(0, spaceIndex);
-}
-
-}
-
+	 let str = s.trim().split(" ")
+	return str[0]
 
 // Do not change the code below
 
